@@ -13,6 +13,7 @@ export interface ESIMPlan {
   popular?: boolean;
   discount?: number;
   originalPrice?: number;
+  purpose?: string;
 }
 
 export interface ESIMOrder {

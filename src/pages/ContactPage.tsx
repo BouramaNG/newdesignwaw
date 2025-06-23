@@ -37,6 +37,19 @@ interface FormData {
   newsletter: boolean;
 }
 
+interface FormErrors {
+  firstName?: string;
+  lastName?: string;
+  email?: string;
+  phone?: string;
+  company?: string;
+  service?: string;
+  subject?: string;
+  message?: string;
+  acceptTerms?: string | undefined;
+  newsletter?: string;
+}
+
 const ContactPage = ({ onNavigate }: ContactPageProps) => {
   const [heroRef, heroInView] = useInView({
     triggerOnce: true,
@@ -73,7 +86,7 @@ const ContactPage = ({ onNavigate }: ContactPageProps) => {
 
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [submitSuccess, setSubmitSuccess] = useState(false);
-  const [errors, setErrors] = useState<Partial<FormData>>({});
+  const [errors, setErrors] = useState<FormErrors>({});
 
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -148,7 +161,7 @@ const ContactPage = ({ onNavigate }: ContactPageProps) => {
   ];
 
   const validateForm = (): boolean => {
-    const newErrors: Partial<FormData> = {};
+    const newErrors: FormErrors = {};
 
     if (!formData.firstName.trim()) newErrors.firstName = 'Le prénom est requis';
     if (!formData.lastName.trim()) newErrors.lastName = 'Le nom est requis';

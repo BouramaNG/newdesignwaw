@@ -44,7 +44,8 @@ class ESIMApiService {
             'Support 24/7',
             'Pas de frais d\'itinérance'
           ],
-          popular: true
+          popular: true,
+          purpose: 'Voyage religieux'
         },
         {
           id: 'europe-5gb',
@@ -62,7 +63,8 @@ class ESIMApiService {
             'Valable 30 jours',
             'Rechargeable',
             'Partage de connexion'
-          ]
+          ],
+          purpose: 'Tourisme'
         },
         {
           id: 'usa-3gb',
@@ -80,7 +82,8 @@ class ESIMApiService {
             'Valable 14 jours',
             'Appels locaux inclus',
             'SMS inclus'
-          ]
+          ],
+          purpose: 'Affaires'
         },
         {
           id: 'africa-2gb',
@@ -98,7 +101,8 @@ class ESIMApiService {
             'Valable 30 jours',
             'Support en français',
             'Activation immédiate'
-          ]
+          ],
+          purpose: 'Voyage en Afrique'
         },
         {
           id: 'global-10gb',
@@ -119,7 +123,8 @@ class ESIMApiService {
             'Hotspot inclus'
           ],
           discount: 15,
-          originalPrice: 29500
+          originalPrice: 29500,
+          purpose: 'Globetrotter'
         },
         {
           id: 'asia-4gb',
@@ -137,7 +142,8 @@ class ESIMApiService {
             'Valable 21 jours',
             'Support multilingue',
             'Apps sociales illimitées'
-          ]
+          ],
+          purpose: 'Découverte Asie'
         }
       ];
 
