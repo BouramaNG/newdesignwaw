@@ -114,7 +114,7 @@ const AboutPage = ({ onNavigate }: AboutPageProps) => {
       title: 'Utilité',
       subtitle: 'Une valeur ajoutée pour votre quotidien',
       description: 'Chez WAW TELECOM, nous faisons de l\'utilité la pierre angulaire de nos services. Nos solutions ne se limitent pas à un simple accès à Internet : elles offrent une réelle valeur ajoutée pour simplifier votre quotidien et booster vos activités professionnelles. Avec des forfaits flexibles, un support client réactif, et des services innovants.',
-      image: 'https://images.unsplash.com/photo-1551434678-e076c223a692?w=600&h=400&fit=crop'
+      image: 'https://wawtelecom.com/Services-Synapsys-04.jpg'
     }
   ];
 

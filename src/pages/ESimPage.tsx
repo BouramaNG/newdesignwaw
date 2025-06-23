@@ -859,8 +859,8 @@ const ESimPage = ({ onNavigate, onNavigateWithPlan }: ESimPageProps) => {
                 >
                   <div className="relative bg-gradient-to-br from-waw-dark to-gray-800 rounded-3xl p-8 shadow-2xl">
                     <img
-                      src="https://ugc.same-assets.com/eFUx4jLdWtvsnZOlpDs0e7-Ux1jQUjTT.png"
-                      alt="Solutions eSIM business pour entreprises"
+                      src="https://wawtelecom.com/esim3.jpg"
+                      alt="Solutions eSIM business pour entreprises africaines"
                       className="w-full h-96 object-cover rounded-2xl shadow-lg"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-waw-dark/20 to-transparent rounded-2xl" />
